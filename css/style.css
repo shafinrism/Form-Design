@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.form{
+    width: 100%;
+    
+    background: linear-gradient(to right,#0E5E6F,#54B435);
+    padding-top: 50px;
+    
+    
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    
+}
+.form-grp{
+    width: 600px;
+    
+    background-color: white;
+    margin:0px auto;
+    border: 6px solid orange;
+    padding: 64px;
+    border-radius: 8px;
+    
+}
+.heading h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.form-box{
+    width: 100%;
+    margin-bottom: 16px;
+
+    
+  
+}
+.d-block{
+    display: block;
+}
+.form-cntrl{
+    padding: 12px;
+    margin-top: 12px;
+    width: 91%;
+    display: block;
+    
+}
+.inline{
+    display: inline-block !important;
+    width: 43%;
+   
+}
+
+.form-box input:focus{
+    
+    outline-color: #48c71e;
+  
+    
+}
+.form-box input:focus::placeholder{
+    color: #48c71e;
+}
+.btn{
+    width: 96%;
+    padding: 14px 22px;
+    background-color: #0E5E6F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    
+}
+.b-block{
+    display: block;
+    margin-bottom: 12px;
+}
+.c-block{
+  
+    padding: 6px 10px;
+    font-size: 16px;
+}
+.icon-1{
+    position: relative;
+}
+
+.icon-1 i{
+    position: absolute;
+    right: 35px;
+    bottom: 12px;
+}
+.icon-2{
+    position: relative;
+}
+.icon-2 i{
+    position: absolute;
+    right: 35px;
+    bottom: 12px;
+    
+    
+}
+.social-icon li{
+    list-style: none;
+}
+.social-icon li i{
+    padding: 0px 20px;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 4px;
+    font-size: 26px;
+    border-radius: 8px;
+}
+ .one{
+    position: fixed;
+    right:-230px;
+    bottom: 360px;
+    transition: 0.5s;
+}
+
+.two{
+    position: fixed;
+    right:-230px;
+    bottom: 290px;
+    transition: 0.5s;
+}
+.three{
+    position: fixed;
+    right:-230px;
+    bottom: 220px;
+    transition: 0.5s;
+}
+.four{
+    position: fixed;
+    right:-230px;
+    bottom: 150px;
+    transition: 0.5s;
+}
+.five{
+    position: fixed;
+    right:-230px;
+    bottom: 80px;
+    transition: 0.5s;
+}
+.one:hover{
+    right: -5px;
+    transition: 0.5s;
+}
+.two:hover{
+    right: -5px;
+    transition: 0.5s;
+}
+.three:hover{
+    right: -5px;
+    transition: 0.5s;
+}
+.four:hover{
+    right: -5px;
+    transition: 0.5s;
+}
+.five:hover{
+    right: -5px;
+    transition: 0.5s;
+}
+
+
+
+.social-icon li i span{
+    margin-left: 20px;
+} 
+
+
+
+
+
+
+
+
